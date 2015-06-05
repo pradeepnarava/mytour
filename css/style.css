@@ -1689,6 +1689,7 @@ li.dropdown {position: static!important;}
 .baggage-select {
   border: 1px solid #172860;
   border-radius: 3px;
+  margin: 10px 0;
 }
 .baggage-table table {
   background-color: #edeff3;
@@ -1740,4 +1741,31 @@ font-size:17px;
 img.img-responsive {
   padding: 15px 0px;
   width: 100%;
+}
+
+/* schulferien-kalender */
+.schulferien-kalender table
+{
+	margin-bottom: 10px; 
+	/* padding-right: -10px; */
+}
+.schulferien-kalender .inner_row
+{
+	margin-bottom:10px;
+}
+td.results {
+  font-size: 12px;
+  color: #b1b4c5;
+}
+.schulferien-kalender .newsletter li
+{
+	font-size: 14px;
+}
+.schulferien-kalender b
+{
+	font-size:17px;
+}
+.schulferien-kalender .year-row{
+margin-top: -10px;
+border-bottom:1px;
 }
