@@ -1726,7 +1726,7 @@ border-bottom: 0;
 {
   line-height: 30px;
 }
-.baggage i.fa,.einreise i.fa {
+.baggage i.fa,.einreise i.fa,.schulferien-kalender i.fa {
   margin-right: 10px;
 }
 /* Einreise Page */
@@ -1746,8 +1746,7 @@ img.img-responsive {
 /* schulferien-kalender */
 .schulferien-kalender table
 {
-	margin-bottom: 10px; 
-	/* padding-right: -10px; */
+	margin-bottom: 0px; 
 }
 .schulferien-kalender .inner_row
 {
@@ -1767,5 +1766,20 @@ td.results {
 }
 .schulferien-kalender .year-row{
 margin-top: -10px;
-border-bottom:1px;
+border-bottom:1px solid #ccc;
 }
+.schulferien-kalender .year-row td{
+  padding: 15px 0;
+}
+.schulferien-kalender .year-row select
+{
+border:1px solid #021765;
+width:48%;
+border-radius:3px;
+}
+.schulferien-kalender form.newsletter {
+  padding-top: 6px;
+}
+.schulferien-kalender i.fa {
+  font-size: 24px;
+  }
