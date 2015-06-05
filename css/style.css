@@ -1741,3 +1741,86 @@ img.img-responsive {
   padding: 15px 0px;
   width: 100%;
 }
+
+
+
+
+@media (min-width: 768px) {
+
+  .nav_mobile_collpase{ 
+    display:none!important
+  }
+
+  .navbar-nav li:first-child{ 
+    border:none
+  }
+
+  .showonmobile{ 
+    display:none
+  }
+
+  .other_nav, .select_nav{ 
+    display: none;
+  }
+
+  .faq .col-md-6{
+    width: 50%;
+  }
+
+  .faq .form-inline .form-control{
+    width: 100%;
+    padding-left: 7%;
+  }
+
+  .form-inline .has-feedback .form-control-feedback{
+    top: 11px !important;
+    left: 0;
+  }
+
+}
+
+
+.faq .table tr td {
+  background: #f5f8f9;
+}
+
+.faq .table-responsive {
+  background: url(../images/table_top.jpg) repeat-x #E1E1E1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #2E2C6C;
+}
+
+.faq .table{
+  margin-top: 4%;
+  margin-bottom: 0;
+}
+
+.vor-einer h3, .nach-einer h3{
+  margin-top: 0px;
+}
+
+.faq .right {
+  margin-top: 3%;
+}
+
+.has-feedback{
+  width: 86%;
+}
+
+.suche-icon {
+  font-size: 14pt;
+}
+
+.search-input {
+  width: 68%;
+  margin-right: 0px !important;
+}
+
+.faq .request-form .btn{
+  padding: 10px 40px;
+}
+
+.contact {
+  background: #F5F8F9;
+}
