@@ -1670,3 +1670,74 @@ li.dropdown {position: static!important;}
   color:#fff;
   font-size:15px;
  }
+ 
+ 
+ 
+   /* ======================Brilliance Css========================= */
+ 
+ /* Baggages Page */
+ .inner-text-block {
+  clear: both;
+  display: block;
+  width: 100%;
+}
+.baggage-select-block ,.inner-text{
+  width: 100%;
+  max-width: 293px;
+  display: inline-block;
+}
+.baggage-select {
+  border: 1px solid #172860;
+  border-radius: 3px;
+}
+.baggage-table table {
+  background-color: #edeff3;
+  width: 100%;
+  margin-top:10px;
+}
+.even, .odd {
+   border-bottom: 1px solid #d4d8e2;
+  padding: 5px;
+  vertical-align: middle;
+  text-align:center;
+}
+th.odd {
+  background-color: #bec3d3;
+}
+td.odd {
+  background-color: #e0e3ea;
+}
+th.even {
+  background-color: #dadde6;
+}
+table.inner-table
+{
+margin-top:0;
+}
+.even img, .odd img{
+vertical-align: super;
+}
+.bottom
+{
+border-bottom: 0;
+}
+.content-left
+{
+  line-height: 30px;
+}
+.baggage i.fa,.einreise i.fa {
+  margin-right: 10px;
+}
+/* Einreise Page */
+.einreise p
+{
+font-size:14px;
+}
+.einreise b
+{
+font-size:17px;
+}
+img.img-responsive {
+  padding: 15px 0px;
+  width: 100%;
+}
