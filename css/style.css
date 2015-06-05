@@ -1490,3 +1490,183 @@ li.dropdown {position: static!important;}
  }
  
  
+
+
+ 
+ 
+ /* Added Styles  */
+ /* General Request Form  */
+ .request-form{
+  border:1px solid #8d96b1;
+  background:#f5f8f9;
+ }
+ .request-form h3{
+  color:#fff;
+  font-weight: 600;
+  background:#949eb7;
+  padding:10px 20px;
+  margin:0 0 20px 0;
+  font-size:22px;
+ }
+ .request-form .form-group{
+  padding:10px 0;
+  margin-left:20px !important;
+  margin-right:20px !important;
+ }
+ .request-form .border .form-group{
+  padding:10px 0 20px 0;
+  border-bottom:1px solid #d1d3d4;
+  margin-left:20px !important;
+  margin-right:20px !important;
+ }
+ .request-form .form-group label{
+  text-align:left;
+ }
+ .request-form .form-group input, .request-form .form-group textarea, .request-form .form-group select{
+  text-align:left;
+  border:1px solid #142355;
+  background:#fff;
+  color:#172860;
+  font-weight: 600;
+  box-shadow: inset 2px 4px 15px -7px;
+ }
+ .request-form ::-webkit-input-placeholder {
+    color: #172860 !important;
+ }
+ .request-form :-moz-placeholder { /* Firefox 18- */
+    color: #172860 !important;
+ }
+ .request-form ::-moz-placeholder {  /* Firefox 19+ */
+    color: #172860 !important;
+ }
+ .request-form :-ms-input-placeholder {
+    color: #172860 !important;
+ }
+ .request-form .form-group .checkbox{
+  margin-left:10px;
+ }
+ .request-form .topic{
+  background:#ffca00 url(../images/dropdown.png) no-repeat right !important;
+    position: relative;
+    z-index:100;
+  border:2px solid #172860 !important;
+  border-radius:0px;
+ }
+ .request-form .btn{
+  background:#172860;
+  color:#ffcb00;
+  border:none;
+  border-radius:0px;
+  padding:10px 30px;
+ }
+ .request-form select{
+  background:#fff url(../images/dropdown.png) no-repeat right !important;
+    position: relative;
+    z-index:100;
+ }
+ 
+ /*   Offer Request Form  */
+ .newyork{
+  background:#f5f8f9;
+  border:1px solid #8d96b1;
+ }
+ .newyork-right h3{
+  color:#172860;
+  font-weight:bold;
+  font-size:20px;
+  line-height:1.3em;
+  margin:10px 0 0 0;
+ }
+ .newyork-right .fastrequest{
+  margin:18px 0 0 0;
+ }
+ .newyork-right a{
+  color:#132a5e;
+  font-weight:600;
+  text-decoration:underline;
+ }
+ .newyork-right .headerinner{
+  padding:0px !important;
+  margin:10px 0 !important;
+ }
+ .newyork-right i{
+  color:#f2c440;
+  font-size:1.6em;
+  vertical-align: middle;
+  margin:0 5px 0 0;
+ }
+ .newyork-right p{
+  font-weight:600;
+  text-align:justify;
+  margin:0 20px 10px 0;
+  line-height:1.3em;
+ }
+ .newyork-right .list{
+  margin:15px 0;
+ }
+ .newyork-right .list li{
+  font-weight:600;
+  list-style-type:square;
+  color:#fbcb43;
+  line-height:2em;
+ }
+ .newyork-right .list li span{
+  color:#021765;
+ }
+ .newyork-right .list li span.red, .newyork-right p span{
+  color:#d30f3f;
+  font-weight:bold;
+ }
+ 
+ .gopass-block{
+  background:#f5f8f9;
+  padding:10px 20px;
+  border:1px solid #8d96b1;
+ }
+ .gopass-box{
+  background:#fff;
+ }
+ .gopass-left{
+  padding-left:0px !important;
+ }
+ .gopass-right h3{
+  margin:7px 0;
+  color:#132a5e;
+  font-weight:bold;
+  font-size:18px;
+ }
+ .gopass-right p{
+  color:#132a5e;
+  font-weight:600;
+  margin:0px !important;
+ }
+ .gopass-right .adult{
+  margin:5px 0 0 0 !important;
+ }
+ .gopass-left:hover .back{
+  opacity:1;
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+  -ms-transition:all 1s;
+  -o-transition:all 1s;
+  transition:all 1s;
+ }
+ .gopass-left .back{
+  background:rgba(0,0,0,0.4);
+  /*width:96%;
+  height:100%;*/
+  width:204px;
+  height:143px;
+  padding:40px;
+  position:absolute;
+  top:-0px;
+  opacity:0;
+ }
+ .gopass-left .back p{
+  text-align:center;
+  margin:5px 0;
+ }
+ .gopass-left .back p a{
+  color:#fff;
+  font-size:15px;
+ }
