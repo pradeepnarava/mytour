@@ -1743,8 +1743,6 @@ img.img-responsive {
   width: 100%;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* schulferien-kalender */
 .schulferien-kalender table
 {
@@ -1785,9 +1783,7 @@ border-radius:3px;
 .schulferien-kalender i.fa {
   font-size: 24px;
   }
-=======
 
-=======
 /*  send non binding  */
  .msg-icon{
   margin-top:-25px;
@@ -1982,7 +1978,6 @@ border-radius:3px;
  .car2-box .checkbox label{
   margin:-10px 0 0 10px !important;
  }
->>>>>>> 80aae49057489f7bc29d61617b2a0775283e2f99
 
 
 @media (min-width: 768px) {
@@ -2064,4 +2059,3 @@ border-radius:3px;
 .contact {
   background: #F5F8F9;
 }
->>>>>>> origin/master
