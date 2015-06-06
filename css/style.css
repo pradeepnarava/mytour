@@ -1742,7 +1742,200 @@ img.img-responsive {
   width: 100%;
 }
 
-
+/*  send non binding  */
+ .msg-icon{
+  margin-top:-25px;
+ }
+ .message-box ul li{
+  vertical-align:middle;
+ }
+ .message-box .list-tick li{
+  padding-top:5px;
+  font-size:17px;
+ }
+ .message-box p{
+  padding-left:3px;
+  line-height:1.3em;
+ }
+ .comment-box .comment-right{
+  padding:0 0 0 50px;
+ }
+ .comment-right h3{
+  font-size:17px;
+  font-weight:bold;
+ }
+ .comment-right .row p{
+  margin-top:5px;
+ }
+ .comment-right .row p i{
+  font-size:16px !important;
+ }
+ 
+ /*   Offer Request Form  */
+ .newyork{
+  background:#f5f8f9;
+  border:1px solid #8d96b1;
+ }
+ .newyork-right h3{
+  color:#172860;
+  font-weight:bold;
+  font-size:20px;
+  line-height:1.3em;
+  margin:10px 0 0 0;
+ }
+ .newyork-right .fastrequest{
+  margin:18px 0 0 0;
+ }
+ .newyork-right a{
+  color:#132a5e;
+  font-weight:600;
+  text-decoration:underline;
+ }
+ .newyork-right .headerinner{
+  padding:0px !important;
+  margin:10px 0 !important;
+ }
+ .newyork-right i{
+  color:#f2c440;
+  font-size:1.6em;
+  vertical-align: middle;
+  margin:0 5px 0 0;
+ }
+ .newyork-right p{
+  font-weight:600;
+  text-align:justify;
+  margin:0 20px 10px 0;
+  line-height:1.3em;
+ }
+ .newyork-right .list{
+  margin:15px 0;
+ }
+ .newyork-right .list li{
+  font-weight:600;
+  list-style-type:square;
+  color:#fbcb43;
+  line-height:2em;
+ }
+ .newyork-right .list li span{
+  color:#021765;
+ }
+ .newyork-right .list li span.red, .newyork-right p span{
+  color:#d30f3f;
+  font-weight:bold;
+ }
+ 
+ .gopass-block{
+  background:#f5f8f9;
+  padding:10px 20px;
+  border:1px solid #8d96b1;
+ }
+ .gopass-box{
+  background:#fff;
+  border:1px solid #e9e9e9;
+  width:49% !important;
+  margin:0 5px;
+ }
+ .gopass-block > .row{
+  margin-bottom:5px;
+ }
+ .gopass-block .readmore{
+  margin:0px;
+ }
+ .gopass-block .readmore:before{
+    background: #ffcb05 url(../images/arrow.png) no-repeat center;
+ }
+ .gopass-block .readmore:hover:before{
+   background:#2e2c6c url(../images/tick-white.png) no-repeat center;
+ }
+ .gopass-left{
+  padding-left:0px !important;
+ }
+ .gopass-right h3{
+  margin:7px 0;
+  color:#132a5e;
+  font-weight:bold;
+  font-size:18px;
+ }
+ .gopass-right p{
+  color:#132a5e;
+  font-weight:600;
+  margin:0px !important;
+ }
+ .gopass-right .adult{
+  margin:5px 0 0 0 !important;
+ }
+ .gopass-left:hover .back{
+  opacity:1;
+  -webkit-transition:all 1s;
+  -moz-transition:all 1s;
+  -ms-transition:all 1s;
+  -o-transition:all 1s;
+  transition:all 1s;
+ }
+ .gopass-left .back{
+  background:rgba(0,0,0,0.4);
+  width:96%;
+  height:100%;
+  padding:40px;
+  position:absolute;
+  top:-0px;
+  opacity:0;
+ }
+ .gopass-left .back p{
+  text-align:center;
+  margin:5px 0;
+ }
+ .gopass-left .back p a{
+  color:#fff;
+  font-size:15px;
+ }
+ .offer-form h3 i{
+  margin-right:10px;
+ }
+ .offer-form label{
+  float:left;
+ }
+ .offer-form .label-right{
+  padding-left:50px;
+ }
+ .offer-form-block{
+  border:1px solid #8d96b1;
+  background:#f5f8f9;
+ }
+ .car-block{
+  background:#fff;
+  margin: 0px !important;
+  padding: 20px 0;
+ }
+ .car-block > label{
+  margin:50px 0 0 0;
+ }
+ .car1-box{
+  border-right:1px solid #a7a7a7;
+ }
+ .car1{
+  background:rgba(0,0,0,0.2);
+  padding:18px 10px;
+  margin:20px 20px 20px 0 !important;
+ }
+ .car1 p{
+  color:#fff;
+  margin:15px 0 0 0;
+ }
+ .car2{
+  background:rgba(0,0,0,0.2);
+  padding:5px 10px;
+  margin:20px 0px 20px 20px !important;
+ }
+ .car2 img{
+  margin:15px 0 0 0;
+ }
+ .car2 p{
+  color:#fff;
+ }
+ .car2-box .checkbox label{
+  margin:-10px 0 0 10px !important;
+ }
 
 
 @media (min-width: 768px) {
