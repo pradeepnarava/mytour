@@ -1726,7 +1726,7 @@ border-bottom: 0;
 {
   line-height: 30px;
 }
-.baggage i.fa,.einreise i.fa,.schulferien-kalender i.fa {
+.baggage i.fa,.einreise i.fa,.schulferien-kalender i.fa ,.impressum i.fa {
   margin-right: 10px;
 }
 /* Einreise Page */
@@ -2140,4 +2140,10 @@ border-radius:3px;
   line-height: 1 !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
+}
+/* Impressum Datenschutz */
+
+.impressum p
+{
+	text-align:justify;
 }
