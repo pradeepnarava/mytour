@@ -2101,7 +2101,7 @@ border-radius:3px;
   margin-left: 4%;
 }
 
-.contact .block-list li, .flug li {
+.contact .block-list li, .flug li, .reise-und li {
   color: #FFCB05;
 }
 
@@ -2146,4 +2146,9 @@ border-radius:3px;
 .impressum p
 {
 	text-align:justify;
+}
+
+.reise-und li p{
+  color: #2E2C6C;
+  text-align: justify;
 }
