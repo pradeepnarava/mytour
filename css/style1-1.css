@@ -4,7 +4,7 @@
 body{ background:url(../images/body.jpg) repeat-x #e1e1e1;font-family: 'Open Sans', sans-serif; font-size:14px; color: #2e2c6c;}
 
 .header_top{ padding:15px 0; margin-top:20px;}
-.traveltab input{ background: url(../images/serach.png) no-repeat 6px 10px; width:70%; margin-right:10px; border:1px solid #fff; text-align: left; border-radius: 2px; padding: 5px 5px 5px 30px}
+
 .col132{ width:132px; float:left; margin-right:20px; }
 
 .no_padding_left{ padding-left:0 !important}
@@ -492,10 +492,10 @@ a.tooltip:hover > span { opacity: 1; text-decoration: none; visibility: visible;
     .nobgtext{ margin: 0; padding: 15px 0 0}
     
     .vansection{ height: 215px}
-    .vansection img{ width: 100%;height:100%;position: relative}
-    .vansection:hover .hidevandiv{ display: block}
-    .hidevandiv{ position: absolute; width: 100%; height: 100%; top:0; background:rgba(0, 0, 0, 0.55); color: #fff; display: none;}
-    .hidevandiv .nobullet{ padding-top: 50%; font-size: 17px;}
+    .vansection img{ width: 100%;height:100%;position: relative;}
+    .vansection:hover .hidevandiv{ display: table}
+    .hidevandiv{ position: absolute; width: 100%; height: 100%; top:0; background:rgba(0, 0, 0, 0.55); color: #fff; display: none; }
+    .hidevandiv .nobullet{font-size: 17px;  text-align: center;  vertical-align: middle;  display:table-cell;}
     .hidevandiv a{ color: #fff;}
      .hidevandiv a:hover{color: #ffcb05}
     .nobullet li{ display: block;}
@@ -578,12 +578,6 @@ padding: 4px 6px; font-size: 20px; font-weight: normal;
 
 .smallimg{ width: 23%; float: left; margin-right: 5px}
 .smallimg img{ width: 100%;}
-.plus_ic_hide{ float:right;}
-
-.no_travel{ margin-top:12px; margin-bottom:10px; padding-top:5px; padding-bottom:5px;}
-.checkbox_extra{ padding:5px 5px 5px 5px;}
-
-
    /*=================================================================================================================================*/
 /*==================================================POP UP===============================================================================*/
 /*=================================================================================================================================*/
@@ -687,13 +681,14 @@ padding: 4px 6px; font-size: 20px; font-weight: normal;
 .user_pf .glyphicon-triangle-bottom{ margin-left: 5px;font-size: 15px;}
 .profile a:hover{ text-decoration: none;}
 
-.profile .dropdown-menu{ background: #fff; padding: 10px; border: 1px  solid #ccc;} 
-.profile .dropdown-menu li{ text-align: left; padding:0;  display: block!important;  border-top: 1px solid #ccc;}
-.dropdown-menu > li > a{padding: 15px 20px!important;}
+.profile .dropdown-menu{ background: #fff; padding: 10px; border: 1px  solid #2e2c6c; border-radius: 15px;} 
+.profile .dropdown-menu li{ text-align: center; padding:0;  display: block!important;  border-top: 1px solid #ccc;}
+.profile .dropdown-menu li:first-child{ border:none;}
+.dropdown-menu > li > a{padding: 10px 20px!important;}
 .margintop60 { margin-top: 51px;}
 .tab_profile .tab-content{ padding: 10px; background: #fff;  border: 1px solid #7e86a2;}
  .tab_profile .nav-tabs > li > a{border: 1px solid #7e86a2!important; border-radius: 0; min-width: 100px;  text-align: center; margin: 0; padding: 5px 15px}
- .tab_profile  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{ background: #172860!important; color: #fff!important;}
+ .tab_profile  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{ background: #2e2c6c!important; color: #fff!important;}
   .tab_profile .nav-tabs{ border-bottom: 0}
  
  .fileupload {position: relative;overflow: hidden; width: 100%; height: 307px; padding: 0!important; background: #a4a4a4; text-align: center;}
@@ -1059,8 +1054,7 @@ input[type="checkbox"]:checked {
 }
 
 input[type="checkbox"]:checked {
-    background:url(../images/check.png) no-repeat #fac700;
-	background-position:center; 
+    background:url(../images/check.png) no-repeat #fac700; 
 }
 .price{ margin-top: 10px}
 
@@ -1122,13 +1116,94 @@ input[type="checkbox"]:checked {
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus { background: #ffca40!important; color: #23527c; border: none; }
 .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus{background: #ffca40; color: #23527c;}
  
-.checkbox_big{width: 22px; height: 23px;}
-.width_cb{ width:130px;}
-.DOB_margine{ margin-bottom:0px;}
-.cart_mobile_icon{ display:none; visibility:hidden;}
-.font_16{font-size:16px !important;}
 
-/*media*/
+
+/*=================================================================================================================================*/
+/*==================================================Travel Offer Page===============================================================================*/
+/*=================================================================================================================================*/
+ 
+.no_bg_table{ width: 100%}
+   .no_bg_table .graybgth th{  text-align: center;}
+    .no_bg_table td, .no_bg_table th{ padding: 8px; border: 1px solid #7e86a2; }
+    .no_bg_table td{ text-align: center; vertical-align: middle; }
+    .social_icon li{ background: url(../images/social_icon.png) no-repeat -30px 0; padding: 5px 25px;}
+     .social_icon li.callicon{ background-position:0 7px;}
+      .social_icon li.emailicon{ background-position:0 -48px;}
+       .social_icon li.livechatcon{ background-position:0 -105px;}
+       
+       /*=================================================================================================================================*/
+/*================================================== Submit Enquiry  ===============================================================================*/
+/*=================================================================================================================================*/
+
+.txt_area{
+	width:100%;
+}
+
+  /*=================================================================================================================================*/
+/*==================================================32.3 . Call & Contact===============================================================================*/
+/*=================================================================================================================================*/
+
+.tx_area{
+	width:100% !important;
+	margin-bottom:20px;
+	font-size:12px;
+	text-align:left;
+	font-weight:100;
+	margin-top:20px;
+}
+.select_sub{
+	width:70%; 
+	border:#1d275c solid 2px !important; 
+	background:#faca42 !important; 
+	color:#1d275c; 
+	text-transform:uppercase;
+}
+
+.address_icon_calender{background:url(../images/contact_icon.png) no-repeat 0 -2px;  padding-left: 35px; padding-bottom:5px;}
+.address_icon_telephone{background:url(../images/contact_icon.png) no-repeat 0 -27px;  padding-left: 35px; padding-top:5px; padding-bottom:5px;}
+.address_icon_fax{background:url(../images/contact_icon.png) no-repeat 0 -57px;  padding-left: 35px; padding-top:5px; padding-bottom:5px;}
+.address_icon_mail{background:url(../images/contact_icon.png) no-repeat 0 -87px;  padding-left: 35px; padding-top:5px;}
+
+
+/*=================================================================================================================================*/
+/*==================================================TRAVEL COMFERMATION===============================================================================*/
+/*=================================================================================================================================*/
+.header_large{ font-size: 43px; margin: 0; padding: 20px 0}
+/*=================================================================================================================================*/
+/*==================================================REQUEST OFFER===============================================================================*/
+/*=================================================================================================================================*/
+.gray_bg2{ background: #bdbdbd; padding: 10px; color: #fff; vertical-align: middle;}
+.margintop30{ margin-top: 30px}
+.borderleftverticle{ border-left: 1px solid #ccc;} 
+
+
+/*=================================================================================================================================*/
+/*==================================================SERVICE + MY TRAVEL ===============================================================================*/
+/*=================================================================================================================================*/
+.heightframe{   height: 525px; }
+.circle_round{ background: #2e2c6c; margin: auto; font-size: 17px; width: 150px; height: 150px; border-radius: 100px; color: #fff; border: 10px solid #ffcb00;}
+ 
+.circle_round  p{ display:block;vertical-align: middle; text-align: center; margin-top: 32px}
+
+.traveltab{  }
+.traveltab .nav-tabs > li.active > a, .traveltab .nav-tabs > li.active > a:hover,.traveltab  .nav-tabs > li.active > a:focus{ background: #2e2c6c; color: #fff;}
+.traveltab .tab-content{background: #2e2c6c; color: #fff; padding: 10px}
+.traveltab .nav-tabs > li{ background: #fff;}
+.traveltab input{ background: url(../images/serach.png) no-repeat 6px 10px; width: 100%; border:1px solid #fff; text-align: left; border-radius: 2px; padding: 5px 5px 5px 30px}
+.send{ background: #fff; color:#2e2c6c; padding: 5px ; border: 0}
+
+
+  /*=================================================================================================================================*/
+/*==================================================Cancel Page===============================================================================*/
+/*=================================================================================================================================*/
+.pricecancel{margin-left: 20px; font-size: 21px; font-weight: bold;}
+.pricered{ color: #ff3e3e}
+.social_inline{ margin: 0; padding: 0;}
+.social_inline li{ padding:3px 30px 3px 25px; display: inline-block; vertical-align: middle}
+
+/*=================================================================================================================================*/
+/*==================================================Responsive ===============================================================================*/
+/*=================================================================================================================================*/
 @media  
 (min-width : 768px) and (max-width:1200px){  
     .showonmobile ul li{ padding:0 2px; display:inline-block; background:none; list-style:none}
@@ -1356,15 +1431,7 @@ li.dropdown {position: static!important;}
 }
 
 @media  
-(max-width : 768px) {  
-
-	.cart_mobile_icon{ height:50px; width:50px; border-radius:100%; display:block; margin-left:200px; color:#FFF; font-size:24px; padding-left:18px; padding-top:6px;
-	 background:#ffca40; position:fixed; z-index:900; visibility:visible;}	
-	
-	.DOB_margine{ margin-bottom:10px;}
-	
-	.cartdiv{ height:200px; width:90%; padding-left:20px; padding-top:20px; background:#fff; position:fixed; z-index:800;}
-	   
+(max-width : 768px) {    
     .nav_mobile{ display:none}
     .nav_mobile_collpase{ display:block}
     .nav_mobile_collpase ul { padding:0}
@@ -1490,381 +1557,3 @@ li.dropdown {position: static!important;}
  }
  
  
-
-
- 
- 
- /* Added Styles  */
- /* General Request Form  */
- .request-form{
-  border:1px solid #8d96b1;
-  background:#f5f8f9;
- }
- .request-form h3{
-  color:#fff;
-  font-weight: 600;
-  background:#949eb7;
-  padding:10px 20px;
-  margin:0 0 20px 0;
-  font-size:22px;
- }
- .request-form .form-group{
-  padding:10px 0;
-  margin-left:20px !important;
-  margin-right:20px !important;
- }
- .request-form .border .form-group{
-  padding:10px 0 20px 0;
-  border-bottom:1px solid #d1d3d4;
-  margin-left:20px !important;
-  margin-right:20px !important;
- }
- .request-form .form-group label{
-  text-align:left;
- }
- .request-form .form-group input, .request-form .form-group textarea, .request-form .form-group select{
-  text-align:left;
-  border:1px solid #142355;
-  background:#fff;
-  color:#172860;
-  font-weight: 600;
-  box-shadow: inset 2px 4px 15px -7px;
- }
- .request-form ::-webkit-input-placeholder {
-    color: #172860 !important;
- }
- .request-form :-moz-placeholder { /* Firefox 18- */
-    color: #172860 !important;
- }
- .request-form ::-moz-placeholder {  /* Firefox 19+ */
-    color: #172860 !important;
- }
- .request-form :-ms-input-placeholder {
-    color: #172860 !important;
- }
- .request-form .form-group .checkbox{
-  margin-left:10px;
- }
- .request-form .topic{
-  background:#ffca00 url(../images/dropdown.png) no-repeat right !important;
-    position: relative;
-    z-index:100;
-  border:2px solid #172860 !important;
-  border-radius:0px;
- }
- .request-form .btn{
-  background:#172860;
-  color:#ffcb00;
-  border:none;
-  border-radius:0px;
-  padding:10px 30px;
- }
- .request-form select{
-  background:#fff url(../images/dropdown.png) no-repeat right !important;
-    position: relative;
-    z-index:100;
- }
- 
- /*   Offer Request Form  */
- .newyork{
-  background:#f5f8f9;
-  border:1px solid #8d96b1;
- }
- .newyork-right h3{
-  color:#172860;
-  font-weight:bold;
-  font-size:20px;
-  line-height:1.3em;
-  margin:10px 0 0 0;
- }
- .newyork-right .fastrequest{
-  margin:18px 0 0 0;
- }
- .newyork-right a{
-  color:#132a5e;
-  font-weight:600;
-  text-decoration:underline;
- }
- .newyork-right .headerinner{
-  padding:0px !important;
-  margin:10px 0 !important;
- }
- .newyork-right i{
-  color:#f2c440;
-  font-size:1.6em;
-  vertical-align: middle;
-  margin:0 5px 0 0;
- }
- .newyork-right p{
-  font-weight:600;
-  text-align:justify;
-  margin:0 20px 10px 0;
-  line-height:1.3em;
- }
- .newyork-right .list{
-  margin:15px 0;
- }
- .newyork-right .list li{
-  font-weight:600;
-  list-style-type:square;
-  color:#fbcb43;
-  line-height:2em;
- }
- .newyork-right .list li span{
-  color:#021765;
- }
- .newyork-right .list li span.red, .newyork-right p span{
-  color:#d30f3f;
-  font-weight:bold;
- }
- 
- .gopass-block{
-  background:#f5f8f9;
-  padding:10px 20px;
-  border:1px solid #8d96b1;
- }
- .gopass-box{
-  background:#fff;
- }
- .gopass-left{
-  padding-left:0px !important;
- }
- .gopass-right h3{
-  margin:7px 0;
-  color:#132a5e;
-  font-weight:bold;
-  font-size:18px;
- }
- .gopass-right p{
-  color:#132a5e;
-  font-weight:600;
-  margin:0px !important;
- }
- .gopass-right .adult{
-  margin:5px 0 0 0 !important;
- }
- .gopass-left:hover .back{
-  opacity:1;
-  -webkit-transition:all 1s;
-  -moz-transition:all 1s;
-  -ms-transition:all 1s;
-  -o-transition:all 1s;
-  transition:all 1s;
- }
- .gopass-left .back{
-  background:rgba(0,0,0,0.4);
-  /*width:96%;
-  height:100%;*/
-  width:204px;
-  height:143px;
-  padding:40px;
-  position:absolute;
-  top:-0px;
-  opacity:0;
- }
- .gopass-left .back p{
-  text-align:center;
-  margin:5px 0;
- }
- .gopass-left .back p a{
-  color:#fff;
-  font-size:15px;
- }
- 
- 
- 
-   /* ======================Brilliance Css========================= */
- 
- /* Baggages Page */
- .inner-text-block {
-  clear: both;
-  display: block;
-  width: 100%;
-}
-.baggage-select-block ,.inner-text{
-  width: 100%;
-  max-width: 293px;
-  display: inline-block;
-}
-.baggage-select {
-  border: 1px solid #172860;
-  border-radius: 3px;
-  margin: 10px 0;
-}
-.baggage-table table {
-  background-color: #edeff3;
-  width: 100%;
-  margin-top:10px;
-}
-.even, .odd {
-   border-bottom: 1px solid #d4d8e2;
-  padding: 5px;
-  vertical-align: middle;
-  text-align:center;
-}
-th.odd {
-  background-color: #bec3d3;
-}
-td.odd {
-  background-color: #e0e3ea;
-}
-th.even {
-  background-color: #dadde6;
-}
-table.inner-table
-{
-margin-top:0;
-}
-.even img, .odd img{
-vertical-align: super;
-}
-.bottom
-{
-border-bottom: 0;
-}
-.content-left
-{
-  line-height: 30px;
-}
-.baggage i.fa,.einreise i.fa,.schulferien-kalender i.fa {
-  margin-right: 10px;
-}
-/* Einreise Page */
-.einreise p
-{
-font-size:14px;
-}
-.einreise b
-{
-font-size:17px;
-}
-img.img-responsive {
-  padding: 15px 0px;
-  width: 100%;
-}
-
-<<<<<<< HEAD
-/* schulferien-kalender */
-.schulferien-kalender table
-{
-	margin-bottom: 0px; 
-}
-.schulferien-kalender .inner_row
-{
-	margin-bottom:10px;
-}
-td.results {
-  font-size: 12px;
-  color: #b1b4c5;
-}
-.schulferien-kalender .newsletter li
-{
-	font-size: 14px;
-}
-.schulferien-kalender b
-{
-	font-size:17px;
-}
-.schulferien-kalender .year-row{
-margin-top: -10px;
-border-bottom:1px solid #ccc;
-}
-.schulferien-kalender .year-row td{
-  padding: 15px 0;
-}
-.schulferien-kalender .year-row select
-{
-border:1px solid #021765;
-width:48%;
-border-radius:3px;
-}
-.schulferien-kalender form.newsletter {
-  padding-top: 6px;
-}
-.schulferien-kalender i.fa {
-  font-size: 24px;
-  }
-=======
-
-
-
-@media (min-width: 768px) {
-
-  .nav_mobile_collpase{ 
-    display:none!important
-  }
-
-  .navbar-nav li:first-child{ 
-    border:none
-  }
-
-  .showonmobile{ 
-    display:none
-  }
-
-  .other_nav, .select_nav{ 
-    display: none;
-  }
-
-  .faq .col-md-6{
-    width: 50%;
-  }
-
-  .faq .form-inline .form-control{
-    width: 100%;
-    padding-left: 7%;
-  }
-
-  .form-inline .has-feedback .form-control-feedback{
-    top: 11px !important;
-    left: 0;
-  }
-
-}
-
-
-.faq .table tr td {
-  background: #f5f8f9;
-}
-
-.faq .table-responsive {
-  background: url(../images/table_top.jpg) repeat-x #E1E1E1;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  color: #2E2C6C;
-}
-
-.faq .table{
-  margin-top: 4%;
-  margin-bottom: 0;
-}
-
-.vor-einer h3, .nach-einer h3{
-  margin-top: 0px;
-}
-
-.faq .right {
-  margin-top: 3%;
-}
-
-.has-feedback{
-  width: 86%;
-}
-
-.suche-icon {
-  font-size: 14pt;
-}
-
-.search-input {
-  width: 68%;
-  margin-right: 0px !important;
-}
-
-.faq .request-form .btn{
-  padding: 10px 40px;
-}
-
-.contact {
-  background: #F5F8F9;
-}
->>>>>>> origin/master
