@@ -1511,7 +1511,7 @@ li.dropdown {position: static!important;}
  .request-form .form-group{
   padding:10px 0;
   margin-left:20px !important;
-  margin-right:20px !important;
+  margin-right:20px ;
  }
  .request-form .border .form-group{
   padding:10px 0 20px 0;
@@ -2012,8 +2012,30 @@ border-radius:3px;
     left: 0;
   }
 
+  .search-input {
+    width: 68%;
+    margin-right: 0px !important;
+  }
+
+  .form-group.search-input {
+    margin-bottom: -6% !important;
+  }
+
 }
 
+@media (max-width: 767px) {
+
+  .form-group.search-input {
+    margin-bottom: -40px;
+  }
+
+}
+
+@media (min-width: 991px) {
+  .faq .col-md-6{
+    width: 50%;
+  }
+}
 
 .faq .table tr td {
   background: #f5f8f9;
@@ -2031,7 +2053,7 @@ border-radius:3px;
   margin-bottom: 0;
 }
 
-.vor-einer h3, .nach-einer h3{
+.vor-einer h3, .nach-einer h3, .right h3{
   margin-top: 0px;
 }
 
@@ -2056,6 +2078,66 @@ border-radius:3px;
   padding: 10px 40px;
 }
 
-.contact {
+.contact, .flug {
   background: #F5F8F9;
+  border: 1px solid;
+}
+
+.faq-img {
+  margin-top: -16px;
+}
+
+.contact .nav li {
+  width: 33.33%;
+  text-align: center;
+  border-right: 1px solid;
+}
+
+.contact .nav {
+  border-bottom: 1px solid;
+}
+
+.contact h4 {
+  margin-left: 4%;
+}
+
+.contact .block-list li, .flug li {
+  color: #FFCB05;
+}
+
+.contact .divTable-cell, .flug .divTable {
+  color: #2E2C6C;
+  font-weight: 600;
+  text-align: justify;
+  padding-right: 2%;
+}
+
+.contact .nav li:last-child {
+  border-right: none;
+}
+
+.flug li {
+  line-height: 40px;
+}
+
+.form-inline .has-feedback .form-control-feedback{
+  top: 11px !important;
+  left: 0;
+}
+
+.faq .form-inline .form-control{
+  width: 100%;
+  padding-left: 7%;
+}
+
+.suche-input-icon{
+  position: relative !important;
+  top: -25px !important;
+  display: inline-block !important;
+  font-family: 'Glyphicons Halflings' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  line-height: 1 !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
 }
