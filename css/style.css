@@ -2164,3 +2164,64 @@ border-radius:3px;
   box-shadow: inset 2px 4px 15px -7px !important;
   width: 100% !important;
 }
+
+
+/* Usa Sight Seeing Details*/
+.usa-sight-seeing .map_top
+{
+height:189px;
+}
+.usa-sight-seeing .gallery_rt li
+{
+	padding:5px 0 ;
+}
+.usa-sight-seeing .gallery_rt li img
+{
+	  max-width: 80px;
+}
+.usa-sight-seeing  .progress
+{
+border-radius:0;
+}
+.usa-sight-seeing .usa-sight-col-md-3 .list-bullet li
+{
+	line-height:35px;
+}
+.usa-sight-seeing  .usa-sight-col-md-3  a.readmore
+{
+	margin-top:20px;
+}
+.usa-sight-seeing .price_booknow
+{
+	background-size: 90%;
+	margin-top: -15px;
+}
+.usa-sight-seeing .price_booknow:hover {
+  background-position: 3px -130px;
+  color: #fff;
+}
+.usa-sight-seeing .price_booknow .pricetext {
+    padding: 20px 17px 0px;
+	padding-left: 0;
+}
+.usa-sight-seeing span.hide_480 {
+  font-size: 15px;
+}
+.usa-sight-seeing .usa-sight-margintop {
+  margin-top: 13px;
+}
+@media (min-width: 992px)
+{
+.usa-sight-seeing .usa-sight-col-md-5 {
+  width: 57.5%;
+}
+.usa-sight-seeing .usa-sight-col-md-3 {
+  width: 42.5%;
+}
+.usa-sight-seeing .usa-sight-col-md-7 {
+  width: 83.5%;
+}
+.usa-sight-seeing .usa-sight-col-md-1 {
+  width: 16.5%;
+}
+}
