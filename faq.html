@@ -36,8 +36,12 @@
     <div class="container">
    <div class="header_top font10">
           <div class="nomargin pull-left" itemscope itemtype="http://schema.org/PostalAddress">
-              <div class="col132 no_padding_left hide_on_mobile" itemprop="telephone"><img src="images/phone.png" alt="" > +49 (0) 40 4293787</div>
-              <div class="col132 hide_on_mobile" itemprop="email"><img src="images/email-faq.png" alt=""> info@mytraveltours.de</div>
+              <div class="col132 no_padding_left hide_on_mobile" itemprop="telephone">
+              <!--<img src="images/phone.png" alt="" >-->
+              <i class="sp sp-phone"></i> +49 (0) 40 4293787</div>
+              <div class="col132 hide_on_mobile" itemprop="email">
+              <!--<img src="images/email-faq.png" alt="">-->
+              <i class="sp sp-envelope"></i> info@mytraveltours.de</div>
               <div class="clearfix"></div>
               <div class="logo pull-left   no_padding_left"><a href="index.html"><img src="images/logo.png" alt=""> </a></div>
                <div class="text-left shownumber col-xs-3 showonmobile noppading">
@@ -334,10 +338,13 @@
       </div>
 
       
-      <h3><i class="glyphicon glyphicon-search suche-icon"></i> Suche</h3>
+      <h3>
+      <!--<i class="glyphicon glyphicon-search suche-icon"></i>--> 
+      <i class="sp sp-maginify"></i>
+      Suche</h3>
       <form class="form-inline request-form">
         <div class="form-group search-input">
-          <input type="text" class="form-control col-md-12" placeholder="Suchbegriff eingeben">
+          <input type="text" class="form-control col-md-12" placeholder="Suchbegriff eingeben">          
           <span class="glyphicon glyphicon-search form-control-feedback suche-input-icon" aria-hidden="true"></span>
           <span id="inputSuccess2Status" class="sr-only">(success)</span>
         </div>
@@ -346,14 +353,22 @@
         </div>        
       </form>
 
-      <h3><img src="images/telephone.png"> Kontact</h3>
+      <h3>
+      <!--<img src="images/telephone.png">-->
+      <i class="sp sp-telephone"></i>Kontact</h3>
       <div class="contact">
         <div role="tabpanel">
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#email" aria-controls="email" role="tab" data-toggle="tab"><img src="images/email-faq.png"> &nbsp; EMail</a></li>
-            <li role="presentation"><a href="#telefon" aria-controls="telefon" role="tab" data-toggle="tab"><img src="images/mobile.png"> &nbsp; Telefon</a></li>
-            <li role="presentation"><a href="#kontact" aria-controls="kontact" role="tab" data-toggle="tab"><img src="images/user-contact.png"> &nbsp; Kontact</a></li>
+            <li role="presentation" class="active"><a href="#email" aria-controls="email" role="tab" data-toggle="tab">
+            <i class="sp sp-envelope-white"></i>
+            <!--<img src="images/email-faq.png">-->EMail</a></li>
+            <li role="presentation"><a href="#telefon" aria-controls="telefon" role="tab" data-toggle="tab">
+            <i class="sp sp-phone-white"></i>
+            <!--<img src="images/mobile.png"> &nbsp; -->Telefon</a></li>
+            <li role="presentation"><a href="#kontact" aria-controls="kontact" role="tab" data-toggle="tab">
+            <i class="sp sp-contact-white"></i>
+            <!--<img src="images/user-contact.png"> &nbsp; -->Kontact</a></li>
           </ul>
 
           <!-- Tab panes -->

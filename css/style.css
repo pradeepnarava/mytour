@@ -1,6 +1,156 @@
 @charset "utf-8";
 /* CSS Document */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+/* --------------------------------------------------------------- */
+/*  Sprite Icons
+/* --------------------------------------------------------------- */
+
+.sp {
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.sp-briefcase {
+	background: url(../images/sprites.png) no-repeat 0 0;
+	height: 29px;
+	width: 19px;
+}
+
+.sp-phone {
+	background: url(../images/sprites.png) no-repeat -20px 0;
+	height: 14px;
+	width: 12px;
+}
+
+.sp-envelope {
+	background: url(../images/sprites.png) no-repeat -33px 0;
+	height: 10px;
+	width: 15px;
+}
+
+.sp-file-text {
+	background: url(../images/sprites.png) no-repeat -70px 0;
+	height: 26px;
+	width: 19px;
+}
+
+.sp-envelope-white {
+	background: url(../images/sprites.png) no-repeat -90px -18px;
+	height: 17px;
+	width: 18px;
+}
+
+.sp-phone-white {
+	background: url(../images/sprites.png) no-repeat -109px -22px;
+	height: 21px;
+	width: 12px;
+}
+
+.sp-contact-white {
+	background: url(../images/sprites.png) no-repeat -122px -22px;
+	height: 20px;
+	width: 20px;
+}
+
+.sp-user-secret {
+	background: url(../images/sprites.png) no-repeat -143px 0;
+	height: 28px;
+	width: 21px;
+}
+
+.sp-file-lock {
+	background: url(../images/sprites.png) no-repeat -164px 0;
+	height: 23px;
+	width: 27px;
+}
+
+.sp-map-marker {
+	background: url(../images/sprites.png) no-repeat -192px 0;
+	height: 32px;
+	width: 21px;
+}
+
+.sp-car-sun {
+	background: url(../images/sprites.png) no-repeat -214px 0;
+	height: 23px;
+	width: 34px;
+}
+
+.sp-flight-travel {
+	background: url(../images/sprites.png) no-repeat -249px 0;
+	height: 26px;
+	width: 32px;
+}
+
+.sp-personal-info {
+	background: url(../images/sprites.png) no-repeat -1px -43px;
+	height: 26px;
+	width: 32px;
+}
+
+.sp-envelope-big {
+	background: url(../images/sprites.png) no-repeat -34px -43px;
+	height: 16px;
+	width: 22px;
+}
+
+.sp-maginify {
+	background: url(../images/sprites.png) no-repeat -57px -43px;
+	height: 16px;
+	width: 15px;
+}
+
+.sp-telephone {
+	background: url(../images/sprites.png) no-repeat -86px -43px;
+	height: 20px;
+	width: 20px;
+}
+
+.sp-file-tick {
+	background: url(../images/sprites.png) no-repeat -282px 0;
+	height: 26px;
+	width: 17px;
+}
+
+.sp-comment {
+	background: url(../images/sprites.png) no-repeat -107px -43px;
+	height: 17px;
+	width: 20px;
+}
+
+.sp-tick-mark {
+	background: url(../images/sprites.png) no-repeat -128px -43px;
+	height: 24px;
+	width: 20px;
+}
+
+/* --- tabbed menu icons --- */
+
+.nav-tabs > li.active > a .sp-envelope-white,
+.nav-tabs > li > a:hover .sp-envelope-white {
+	background: url(../images/sprites.png) no-repeat scroll -90px 0;
+}
+
+.nav-tabs > li.active > a .sp-phone-white,
+.nav-tabs > li > a:hover .sp-phone-white {
+	background: url(../images/sprites.png) no-repeat scroll -109px 0;
+}
+
+.nav-tabs > li.active > a .sp-contact-white,
+.nav-tabs > li > a:hover .sp-contact-white {
+	background: url(../images/sprites.png) no-repeat scroll -122px 0;
+}
+
+.contact .nav li a .sp-envelope-white {
+	margin-top: -4px;
+}
+
+/* --------------------------------------------------------------- */
+/*  Main CSS
+/* --------------------------------------------------------------- */
+
 body{ background:url(../images/body.jpg) repeat-x #e1e1e1;font-family: 'Open Sans', sans-serif; font-size:14px; color: #2e2c6c;}
 
 .header_top{ padding:15px 0; margin-top:20px;}
@@ -2427,3 +2577,56 @@ border-radius:0;
 	margin:0px;
 	float:right;
  }
+ /* Press Information */
+ @media (min-width: 992px)
+{
+	.pressinformation .pressinformation-col-md-3
+	{
+	width:33%;
+	}
+	.pressinformation .pressinformation-col-md-5
+	{
+	width:67%;
+	}
+	
+}
+.pressinformation .pressinformation-col-md-5 .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td
+{
+	background:#fff;
+	font-size:10px;
+}
+.pressinformation .contact-card p
+{
+	font-size:10px;
+}
+.pressinformation .contact-card p i.fa
+{
+font-size:12px !important;
+}
+.pressinformation .contact-card p i.fa.fa-envelope {
+  margin-right: 12px;
+  
+}
+ /* My travel tours */
+ @media (min-width: 992px)
+{
+	.mytraveltours .mytraveltours-col-md-3
+	{
+	width:33%;
+	}
+	.mytraveltours .mytraveltours-col-md-5
+	{
+	width:67%;
+	}
+	
+}
+.mytraveltours .mytraveltours-col-md-5 p span
+{
+	text-decoration: underline;
+	font-weight: 600;
+}
+.mytraveltours .mytraveltours-col-md-5 p
+{
+	margin-bottom:20px;
+	text-align:justify;
+}
