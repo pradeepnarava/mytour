@@ -2225,3 +2225,205 @@ border-radius:0;
   width: 16.5%;
 }
 }
+
+
+ /*	Jobs and Career	*/
+ .live-chat{
+	background:url(../images/live-chat-bg.png) no-repeat;
+	padding:210px 0 0 0;
+ }
+ .live-chat-text{
+	width:100%;
+	background:url(../images/livechattext-bg.png);
+ }
+ .live-chat-text p{
+	text-align:center;
+	color:#172860;
+	font-weight:bold;
+	font-size:18px;
+ }
+ .live-chat-text p span{
+	text-transform:uppercase;
+ }
+ .find{
+	margin-top:-10px;
+ }
+ .sidemenu{
+	background:url(../images/sidemenu-bg.png) repeat-x top left;
+	padding:10px 0 0 0;
+ }
+ .sidemenu ul{
+	padding:0px;
+ }
+ .sidemenu ul li{
+	list-style-type:none;
+	background:#fff;
+	margin:0 0 2px 0;
+	padding:10px;
+ }
+ .sidemenu ul li a{
+	text-decoration:none;
+	color:#021765;
+ }
+ .sidemenu ul li:hover a, .sidemenu ul li.active a{
+	font-weight:bold;
+ }
+ .news-text{
+	border:1px solid #eaeaea;
+	padding:5px;
+ }
+ .news-text h3{
+	font-size:1.2em;
+	font-weight:bold;
+	margin:2px 0 6px 0;
+ }
+ .news-text p{
+	margin:0px;
+	text-align:justify;
+ }
+ .news-text a{
+	text-decoration:underline;
+	line-height:2em;
+ }
+ .job-right .headerinner{
+	padding-top:0px;
+ }
+ .career-text{
+	margin:20px 0;
+ }
+ .career-text p{
+	text-align:justify;
+ }
+ .job-list{
+	margin:0 0 10px 0;
+ }
+ .job-list ul{
+	padding:0px;
+	margin:0 0 0 20px;
+ }
+ .job-list p{
+	padding:10px 10px;
+	margin:0 10px;
+	border-bottom:2px solid #b2b9cb;
+ }
+ .job-list p.last{
+	border:0px;
+ }
+ .job-list p img{
+	margin:0 10px 0 0;
+ }
+ .tour-box{
+	background:#fff;
+	padding:0 0 10px 0;
+ }
+ .tour-box img{
+	width:100%;
+ }
+ .tour-box h4{
+	padding:8px 5px 3px 5px;
+	font-weight:600;
+	margin:0px;
+ }
+ .tour-box p{
+	padding:5px;
+	text-align:justify;
+	margin:0px;
+ }
+ .tour-box a{
+	text-decoration:none;
+	color:#ffcb00;
+	font-weight:400;
+	background:#172860;
+	padding:5px 10px;
+	margin:0 0 0 5px;
+ }
+ .travel-img{
+	padding:0px !important;
+ }
+ .travel-text{
+	padding:0px;
+ }
+ .travel-text p{
+	line-height:1.1em !important;
+	text-align:justify;
+	margin:0px;
+	font-size:13px;
+ }
+ .travel-text a{
+	font-size:13px;
+	font-weight:600;
+ }
+ .kunden-block{
+	padding:0px !important;
+ }
+ .kunden-block .row{
+	padding:10px 15px;
+ }
+ .kunden-block hr{
+	margin:0px;
+	border:1px solid #ededed;
+ }
+ .panel-group{
+	margin:0px !important;
+ }
+ .panel-title a{
+	color:#132a5e !important;
+	font-weight:600;
+ }
+ .panel-title a img{
+	float:right;
+	margin-top:2px;
+ }
+ .golf .job-icons img{
+	margin:0 5px;
+ }
+ .golf > .row{
+	margin:0 0 10px 0;
+ }
+ .canada{
+	padding:0px !important;
+ }
+ .contact-block i{
+	font-size:1.5em !important;
+	margin:0 15px 0 0;
+ }
+ .contact-block a{
+	color:#ff0000;
+	text-decoration:underline;
+ }
+ .contact-block .follow{
+	margin:0 0 0 40px;
+	background:#172860;
+	color:#fff;
+	padding:2px 8px;
+ }
+ .travel-title{
+	margin:0px;
+	padding: 10px 15px;
+	background:#f5f8f9;
+	color:#132a5e;
+	font-weight:600;
+	font-size:16px;
+	border-bottom:2px solid #eaeaea;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+ }
+ .travel-blog{
+	margin:2px 0;
+	background:#fff;
+	border-radius:2px;
+ }
+ .travel-blog img{
+	margin:10px 0;
+ }
+ .newsletter h4 a{
+	text-decoration:none;
+	color:#132a5e;
+ }
+ .newsletter a:hover{
+	text-decoration:underline;
+ }
+ .newsletter a img{
+	margin:0px;
+	float:right;
+ }
