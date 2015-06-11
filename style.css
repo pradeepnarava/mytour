@@ -1,0 +1,88 @@
+
+/*	Unser Team für Sie	*/
+.unser img{
+	margin:-5px 10px 0 0;
+}
+.unser-box{
+	background:#fff;
+	margin: 0 0 10px 10px;
+}
+.unser-box .col-md-3{
+	padding:0px;
+}
+.unser-box h3{
+	margin:3px 0 0 0;
+	font-weight:bold;
+	color:#132a5e;
+	font-size:1.3em;
+}
+.unser-box p.ceo{
+	color:#132a5e;
+	font-size:14px;
+	margin:0px;
+}
+.unser-box p.text{
+	font-size:13px;
+	text-align:justify;
+	margin:5px 10px 5px 0 !important;
+	line-height:1.3em !important;
+}
+.unser-box .specialized p{
+	font-size:11px;
+	margin:0 0 3px 0;
+}
+.unser-box .specialized p i{
+	margin:0 5px 0 0;
+}
+.unser-box .specialized p span{
+	margin:0 20px 0 0;
+}
+.unser-box .specialized p.chat-para{
+	text-align:right !important;
+	margin:0 10px 0 0;
+}
+
+/*	Messan	*/
+.messan{
+	padding:0px;
+}
+.messan .newsletter li label{
+	background-color: #898989;
+	box-shadow: none !important;
+}
+.messan .lipsum{
+	border-bottom:1px solid #15286a;
+}
+.messan form{
+	padding:10px;
+}
+.messan-box{
+	margin:0 0 20px 0;
+}
+.messan-left{
+	background:#fff;
+	border:1px solid #e9e9e9;
+	padding:0 0 20px 0;
+}
+.messan-list li{
+	color:#ffcb00;
+	font-size:22px;
+}
+.messan-list li span{
+	color:#132a5e;
+	font-size:14px;
+}
+.messan-list li span a{
+	text-decoration:underline;
+}
+.messan-btn{
+	color:#132a5e;
+	background:#ffcb00;
+	padding:8px 10px;
+	text-decoration:underline;
+	margin:0 10px 0 0;
+}
+.messan-btn:hover{
+	text-decoration:none;
+	color:#fff;
+}
