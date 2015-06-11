@@ -102,6 +102,12 @@
 	width: 15px;
 }
 
+.sp-input-maginify {
+	background: url(../images/sprites.png) no-repeat -73px -43px;
+	height: 12px;
+	width: 12px;
+}
+
 .sp-telephone {
 	background: url(../images/sprites.png) no-repeat -86px -43px;
 	height: 20px;
@@ -126,6 +132,66 @@
 	width: 20px;
 }
 
+.sp-news {
+	background: url(../images/sprites.png) no-repeat -149px -43px;
+	height: 19px;
+	width: 19px;
+}
+
+.sp-people-magnify {
+	background: url(../images/sprites.png) no-repeat -169px -43px;
+	height: 22px;
+	width: 21px;
+}
+
+.sp-brief-check {
+	background: url(../images/sprites.png) no-repeat -191px -43px;
+	height: 24px;
+	width: 39px;
+}
+
+.sp-graph-balloon {
+	background: url(../images/sprites.png) no-repeat -231px -43px;
+	height: 31px;
+	width: 34px;
+}
+
+.sp-press-inform {
+	background: url(../images/sprites.png) no-repeat -266px -43px;
+	height: 21px;
+	width: 19px;
+}
+
+.sp-speedo {
+	background: url(../images/sprites.png) no-repeat 0 -75px;
+	height: 21px;
+	width: 21px;
+}
+
+.sp-team-group {
+	background: url(../images/sprites.png) no-repeat -22px -75px;
+	height: 33px;
+	width: 25px;
+}
+
+.sp-chat {
+	background: url(../images/sprites.png) no-repeat -48px -75px;
+	height: 12px;
+	width: 14px;
+}
+
+.sp-greater-arrow {
+	background: url(../images/sprites.png) no-repeat -286px -43px;
+	height: 17px;
+	width: 10px;
+}
+
+.sp-printer {
+	background: url(../images/sprites.png) no-repeat -63px -75px;
+	height: 14px;
+	width: 17px;
+}
+
 /* --- tabbed menu icons --- */
 
 .nav-tabs > li.active > a .sp-envelope-white,
@@ -147,9 +213,25 @@
 	margin-top: -4px;
 }
 
+.img-txt1 li .sp-thumbs-up {
+	margin-top: -4px;
+}
+
+.img-txt1.sp-pad li {
+	padding: 7px 10px;
+}
+
+.search-input .sp-input-maginify {
+	left: 10px;
+	margin-bottom: 22px;
+	position: relative;
+	top: -23px;
+}
+
 /* --------------------------------------------------------------- */
 /*  Main CSS
 /* --------------------------------------------------------------- */
+
 
 body{ background:url(../images/body.jpg) repeat-x #e1e1e1;font-family: 'Open Sans', sans-serif; font-size:14px; color: #2e2c6c;}
 
@@ -382,6 +464,7 @@ li.dropdown-sub_s_menu{ position:static !important;}
 .inner_row .centertetxt{  float:left; width:84.5%}
 .inner_row .downloadimg{ text-align:center; padding-top:5px} 
 .inner_row .downloadimg img{ margin-bottom:10px}
+.inner_row .downloadimg i { margin-bottom:10px}
 .mrgnbottom_inner_row{ margin-bottom:15px}
 .bottomcolomn img{ width: 100%}
 .con_icon{ margin:0 0 0 0 ; padding:0 0 0 0;}
@@ -2463,6 +2546,9 @@ border-radius:0;
  .job-list p img{
 	margin:0 10px 0 0;
  }
+  .job-list p i{
+	margin:0 13px 0 0;
+ }
  .tour-box{
 	background:#fff;
 	padding:0 0 10px 0;
@@ -2634,29 +2720,29 @@ font-size:12px !important;
 .mytraveltours, .pressinformation{
   margin-top: 15px;
 }
-/* Jobs and Careers-2 */
+
+/* -- jobs careeres-2 -- */
+
 .jobs-careers .contentright-border-bottom {
   border-bottom: 1px solid #e9e9e9;
 }
-.jobs-careers b
-{
-	font-size:17px;
-	padding-bottom: 5px;
-	display: block;
+.jobs-careers b {
+ font-size:17px;
+ padding-bottom: 5px;
+ display: block;
 }
 .jobs-careers ul.block-list li p {
-
   color:#2E2C6C;
   margin-bottom: 5px;
 }
-.jobs-careers ul.block-list li
-{
-  color: #FFCB05;
-  
+.jobs-careers ul.block-list li {
+  color: #FFCB05;  
 }
 
+
 /*	Unser Team für Sie	*/
-.unser img{
+
+.unser img {
 	margin:-5px 10px 0 0;
 }
 .unser-box{
